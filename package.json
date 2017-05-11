@@ -4,7 +4,7 @@
   "description": "Simple Starter For Reactjs Webpack2 BebeL 2017",
   "main": "./dist/index.html",
   "scripts": {
-    "dev": "webpack -d --watch"
+    "dev": "webpack-dev-server"
   },
   "author": "Pblfer",
   "license": "MIT",
@@ -19,7 +19,8 @@
     "react-dom": "^15.5.4",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.17.0",
-    "webpack": "^2.5.1"
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {}
 }
