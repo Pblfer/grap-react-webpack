@@ -4,7 +4,8 @@
   "description": "Simple Starter For Reactjs Webpack2 BebeL 2017",
   "main": "./dist/index.html",
   "scripts": {
-    "start": "webpack-dev-server --open --env dev"
+    "start": "webpack-dev-server --open --env dev",
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
   },
   "author": "Pblfer",
   "license": "MIT",
