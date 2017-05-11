@@ -4,7 +4,7 @@
   "description": "Simple Starter For Reactjs Webpack2 BebeL 2017",
   "main": "./dist/index.html",
   "scripts": {
-    "dev": "webpack-dev-server"
+    "start": "webpack-dev-server"
   },
   "author": "Pblfer",
   "license": "MIT",
